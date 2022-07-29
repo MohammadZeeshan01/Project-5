@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", "Poppins";
+  
+}
+
+body{
+  background-image: url("./assets/bg.png");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  
+  
+}
+
+
+.navbar{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 12vh;
+width: 100%;
+background-color: black;
+
+}
+
+
+.logo{
+  margin-left: 70px;
+height: 35%;
+margin-top: 20%;
+}
+
+.list{
+display: flex;
+flex-direction: row;
+margin-top: 3.%;
+margin-right: 300px;
+margin-top: 3.2%;
+
+
+
+}
+
+  li {
+    /* font-weight: 600; */
+    list-style-type: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .line{
+    border-left: 3px solid #fff;
+    height: 50px;
+    position:absolute;
+    left: 10%;
+    margin-top: 22px;
+    margin-left: 50px;
+  }
+
+  /* .fa-thin.fa-angle-down{
+    color:black;
+  } */
+
+
+  .arrow {
+    margin-top: 8px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    height: 0.8vw;
+    width: 0.8vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    margin-left: -12px;
+    margin-right: 17px;
+  }
+
+  .button-small{
+    margin-left: -110%;
+    margin-top: 15%;
+    padding: 10px 35px;
+    background-color: #932ac0;
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Montserrat", "Poppins";
+    border-radius: 10px;
+
+  }
+
+  .hero{
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .hero-heading{
+    font-size: 5rem;
+    color: #fff;
+  }
+
+  .hero-description{
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .button-large{
+    padding: 10px 35px;
+    background-color: #932ac0;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: "Montserrat", "Poppins";
+    border-radius: 1px solid #932ac0;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+
+
+  
+
+  
